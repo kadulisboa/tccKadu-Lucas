@@ -1,0 +1,6 @@
+{
+  "auth/email-already-in-use": "O endereço de e-mail já está sendo usado por outra conta.",
+  "auth/user-not-found": "Não há registro de usuário correspondente a este identificador. O usuário pode ter sido excluído.",
+  "auth/wrong-password": "E-mail e/ou senha está incorreta, caso não se lembre, você pode recupera-los.",
+  "auth/too-many-requests": "O acesso a esta conta foi temporariamente desativado devido a muitas tentativas de login malsucedidas. Você pode restaurá-lo imediatamente redefinindo sua senha ou pode tentar novamente mais tarde."
+}

@@ -1,0 +1,85 @@
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+
+.divider::after,
+.divider::before {
+  --tw-border-opacity: 0.1;
+  --tw-bg-opacity: var(--tw-border-opacity, 0.1);
+}
+
+html body,
+body body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  min-height: 100%;
+  width: 100%;
+}
+
+html body {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+html body #root {
+  flex: 1 0 auto;
+}
+
+/* * {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  box-sizing: border-box;
+  color: inherit;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.preload * {
+  transition: none !important;
+}
+a {
+  color: inherit;
+  cursor: pointer;
+  font-size: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+button {
+  background: none;
+  cursor: pointer;
+}
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+select option {
+  color: #000 !important;
+}
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+}
+html body,
+body body,
+body #root {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  position: relative;
+} */
